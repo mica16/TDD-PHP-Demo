@@ -1,11 +1,20 @@
 {
-
-    "require-dev": {
-        "pestphp/pest": "^1.22"
-    },
-    "config": {
-        "allow-plugins": {
-            "pestphp/pest-plugin": true
-        }
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "UberApp\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "UberApp\\Tests\\": "tests/"
+    }
+  }
 }
