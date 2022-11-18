@@ -2,6 +2,10 @@
 
 namespace UberApp\BusinessLogic\UseCases;
 
+use UberApp\BusinessLogic\Gateways\Repositories\BookingRepository;
+use UberApp\BusinessLogic\Models\Booking;
+use UberApp\BusinessLogic\Models\DateProvider;
+
 class BookUber
 {
 

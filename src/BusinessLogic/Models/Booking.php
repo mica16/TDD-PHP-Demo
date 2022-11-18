@@ -1,6 +1,6 @@
 <?php
 
-namespace UberApp\BusinessLogic\UseCases;
+namespace UberApp\BusinessLogic\Models;
 
 use DateTime;
 

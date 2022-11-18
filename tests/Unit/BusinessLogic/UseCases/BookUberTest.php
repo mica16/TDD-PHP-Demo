@@ -4,11 +4,11 @@ namespace UberApp\Tests;
 
 
 use DateTime;
-use UberApp\BusinessLogic\UseCases\Booking;
-use UberApp\BusinessLogic\UseCases\BookingSnapshot;
+use UberApp\Adapters\Secondary\Gateways\Repositories\InMemoryBookingRepository;
+use UberApp\BusinessLogic\Models\Booking;
+use UberApp\BusinessLogic\Models\BookingSnapshot;
+use UberApp\BusinessLogic\Models\DeterministicDateProvider;
 use UberApp\BusinessLogic\UseCases\BookUber;
-use UberApp\BusinessLogic\UseCases\DeterministicDateProvider;
-use UberApp\BusinessLogic\UseCases\InMemoryBookingRepository;
 
 beforeEach(function () {
     $this->bookUberRepository = new InMemoryBookingRepository();

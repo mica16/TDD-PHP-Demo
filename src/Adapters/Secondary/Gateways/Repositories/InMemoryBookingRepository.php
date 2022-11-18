@@ -1,6 +1,9 @@
 <?php
 
-namespace UberApp\BusinessLogic\UseCases;
+namespace UberApp\Adapters\Secondary\Gateways\Repositories;
+
+use UberApp\BusinessLogic\Gateways\Repositories\BookingRepository;
+use UberApp\BusinessLogic\Models\Booking;
 
 class InMemoryBookingRepository implements BookingRepository
 {
