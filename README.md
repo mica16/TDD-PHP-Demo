@@ -1,6 +1,6 @@
 # Uber App 
 
-That application uses PEST as test runner. 
+That PHP 8.1 application uses PEST as test runner. 
 
 ### To launch test without coverage report: 
 
