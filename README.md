@@ -1,5 +1,15 @@
 # Uber App 
 
+That application uses PEST as test runner. 
+
+### To launch test without coverage report: 
+
+```./vendor/bin/pest```
+
+### To launch test with coverage report:
+
+```./vendor/bin/pest --coverage```
+
 ## User Story 
 
 As a traveler   
