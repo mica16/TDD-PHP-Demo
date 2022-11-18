@@ -1,6 +1,8 @@
 # Uber App 
 
-That PHP 8.1 application uses PEST as test runner. 
+That PHP 8.1 mini-application uses PEST as test runner. 
+
+It aims to show principles of TDD oriented use-cases and Clean Architecture's ones.
 
 ### To launch test without coverage report: 
 
